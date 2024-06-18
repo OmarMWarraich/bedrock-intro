@@ -1,0 +1,11 @@
+Tue Jun 18 07:22:01 PKT 2024 - sudo apt install python3-pip
+Tue Jun 18 07:23:10 PKT 2024 - sudo apt install python3-venv
+Tue Jun 18 07:23:32 PKT 2024 - python3.12 -m venv myenv
+Tue Jun 18 07:24:21 PKT 2024 - git init
+Tue Jun 18 07:24:56 PKT 2024 - source myenv/bin/activate
+Tue Jun 18 07:26:34 PKT 2024 - pip install boto3
+
+Tue Jun 18 08:07:07 PKT 2024 - pip freeze -r requirements.txt
+Tue Jun 18 08:07:22 PKT 2024 - pip freeze -r >> requirements.txt
+Tue Jun 18 08:07:38 PKT 2024 - pip freeze -r requirements.txt
+Tue Jun 18 08:08:44 PKT 2024 - pip freeze > requirements.txt
